@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@300&family=Montserrat:wght@100;200;400;500&display=swap" rel="stylesheet">
+        <title>Decodificador de Texto</title>
+    </head>
+
+    <body>
+
+        <header>
+            <img src="imagens/logo.jpg" alt="Logo da Alura - letra a">
+        </header>
+
+        <main class="main">
+
+            <section>   
+                <textarea class="input-texto" id=""cols="60" rows="6" placeholder="Digite seu texto aqui:"></textarea>
+                <div class="informacao">
+                    <img src="imagens/exclamacao.jpg">
+                    <h6>Apenas letras maiúsculas e minúsculas, sem acento</h6>
+                </div>
+                
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar()">
+                        Criptografar
+                    </button>
+                    <button class="desencriptar" onclick="btnDescriptar()">
+                        Descriptografar
+                    </button>
+                </div>
+            </section>
+        
+            <section>   
+                <textarea id="resultado" class="resultado" cols="18" rows="12"></textarea>
+
+                <div class="botoes">
+                    <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            
+            </section>
+
+        </main>
+  
+    </body>
+    <footer>
+        <p class="copyright">&copy; Copyright - Ivan Carlos de Oliveira Santos - 2022</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</html>

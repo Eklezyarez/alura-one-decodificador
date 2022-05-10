@@ -1,0 +1,121 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+header{
+    margin-top: 5vh;
+    margin-left: 1vw;
+    mix-blend-mode: multiply;
+ }
+
+body{
+    background-color: #F3F5FC;
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-texto, input-texto::placeholder{
+    all: unset;
+    margin-top: 90px;
+    color: darkblue;
+}
+
+.resultado{
+    all: unset;
+    background-image: url("imagens/m2.jpg");
+    background-repeat: no-repeat;
+	border-radius: 32px;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+main>section:last-child{
+    margin-bottom: 0px;
+    margin-top: -40px;
+    width: 25rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+main>section:last-child>h6{
+    font-size: 30px;
+}
+
+main>section:last-child>p{
+    font-size: 20px;
+}
+
+.informacao{
+    font-size: 150px;
+}
+
+div.informacao>h6{
+    display: inline;
+    font-size: 1rem;
+    padding: auto;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+button{
+    border: solid 1px;
+    border-radius: 0.5em;
+    width: 10vw
+    
+}
+
+button:active{
+    color: rgb(51, 38, 122);
+    font-weight: bold;
+}
+
+button:hover{
+    border: 1px solid green;
+    box-shadow: 1px 1px 1px goldenrod;
+}
+
+.encriptar{
+    margin-left: 30px;
+    color: rgb(0, 0, 134);
+    width: auto;
+}
+
+.copiar{
+    width: 100%
+}
+.desencriptar{
+  margin-left: 30px;
+  color: rgb(0, 0, 134);
+  width: auto;
+}
+
+.copiar{
+ width: 100%;
+ color: rgb(0, 0, 134);
+}
+
+a:hover{
+    box-shadow: 1px 1px 1px 1px darkblue;
+    border-radius: 50%;
+}
+
+footer{
+   display: block;
+   text-align: center;
+}
