@@ -1,3 +1,3 @@
 # Challenge-Oracle-ONE
 ### Decodificador de Texto
-Projeto Front end, básico de HTML, CSS e JavaScript
+Projeto Front end, com HTML, CSS e JavaScript
