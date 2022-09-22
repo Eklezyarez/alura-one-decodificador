@@ -1,5 +1,6 @@
 const inputTexto = document.querySelector(".input-texto");
 const resultado = document.querySelector(".resultado");
+
 function btnEncriptar(){
     if(inputTexto.value == ""){
         alert("Digite um texto!");
