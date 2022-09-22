@@ -1,5 +1,4 @@
 
-
 function btnEncriptar(){
     if(inputTexto.value == ""){
         alert("Digite um texto!");
