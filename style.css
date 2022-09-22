@@ -76,8 +76,7 @@ div.informacao>h6{
 button{
     border: solid 1px;
     border-radius: 0.5em;
-    width: 10vw
-    
+    width: 10vw  
 }
 
 button:active{
